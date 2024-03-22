@@ -52,19 +52,16 @@
     
     시작 화면
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d6911ec5-888c-412e-8308-fa7088b37868/e20b9782-2cb4-48e0-974a-75825e2b5b33/Untitled.png)
+    
     
     회원가입
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d6911ec5-888c-412e-8308-fa7088b37868/2f929b39-a446-4297-9d18-a63f72f206ac/Untitled.png)
     
     로그인
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d6911ec5-888c-412e-8308-fa7088b37868/1a072b45-a46d-4c0a-9f05-12ab02eb8cc1/Untitled.png)
     
     메인 페이지
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d6911ec5-888c-412e-8308-fa7088b37868/367d602d-459b-4606-b8ef-2f68daf81e6f/Untitled.png)
     
 
 ### 2.  발음 평가 서비스
@@ -78,19 +75,15 @@
     
     녹음 페이지
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d6911ec5-888c-412e-8308-fa7088b37868/78da2202-3757-4197-b8ed-546b0e45beec/Untitled.png)
     
     실패 페이지
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d6911ec5-888c-412e-8308-fa7088b37868/83d9c798-f23a-494d-81a6-65f871042ffc/Untitled.png)
     
     성공 페이지
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d6911ec5-888c-412e-8308-fa7088b37868/dc601e5b-a07a-4ebe-b1c5-2079ef8fd620/Untitled.png)
     
     결과 페이지
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d6911ec5-888c-412e-8308-fa7088b37868/2166ee62-f450-4ed4-8ec3-995180c3f32e/Untitled.png)
     
 
 ### 3.  작문 평가 서비스
@@ -105,19 +98,15 @@
     
     작문 페이지
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d6911ec5-888c-412e-8308-fa7088b37868/d7d41d70-8993-447a-b853-1725ca550377/Untitled.png)
-    
+     
     성공 페이지
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d6911ec5-888c-412e-8308-fa7088b37868/d5b5eabc-28c8-45c6-ae17-1986f650aedd/Untitled.png)
     
     실패 페이지
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d6911ec5-888c-412e-8308-fa7088b37868/ae0bb5fd-bb99-462f-bcc5-1dc46c938235/Untitled.png)
     
     결과 페이지
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d6911ec5-888c-412e-8308-fa7088b37868/7e316fd1-f4ae-4905-b56d-06fc6b7efe71/Untitled.png)
     
 
 ### 4. 마이페이지
@@ -129,48 +118,6 @@
 
 # 🍩 기술 스택
 
-### 1. DJango Simple JWT
-
-💡**JWT 란?**
-
-모바일이나 웹이 사용자 인증을 위해 사용하는 암호화된 토큰을 의미합니다. JWT는 인증에 필요한 모든 정보를 담고 있기 때문에 인증을 위한 별도의 저장소가 없어도 되며, 모바일에서 잘 동작하는 인증,인가 방식 입니다.
-
-![Screenshot 2023-12-18 at 10.59.00 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d6911ec5-888c-412e-8308-fa7088b37868/e71e79a9-fe70-44f3-b654-7cb4e85d7a61/Screenshot_2023-12-18_at_10.59.00_PM.png)
-
-> **django simple JWT**
-> 
-> 
-> DRF(Django REST Framework)를 위한 JWT 인증 플러그인입니다. 한 개의 토큰으로 모든 세션을 관리해야하는 Built-in Token 대신, access token과 refresh token 모두 간단하게 구현할 수 있는 django simple JWT를 사용하였습니다.
-> 
-
-**적용**
-
-Korean Making은 모바일에서의 간단한 인증을 위해 Django Simple JWT를 사용합니다.
-
-### 2. Azure AI Speech Service
-
-> 음성 서비스는 [음성 리소스](https://learn.microsoft.com/ko-kr/azure/ai-services/multi-service-resource?pivots=azportal)를 통해 음성 텍스트 변환 및 텍스트 음성 변환 기능을 제공합니다. 높은 정확도로 음성을 텍스트로 변환하여 대화 내용을 기록하고, 자연스러운 텍스트 음성 변환을 생성하고, 음성 오디오를 번역하고, 대화 중에 화자 인식을 사용할 수 있습니다.
-(출처 : https://learn.microsoft.com/ko-kr/azure/ai-services/speech-service/how-to-pronunciation-assessment?pivots=programming-language-python)
-> 
-
-![azspeech.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d6911ec5-888c-412e-8308-fa7088b37868/72891cd4-b789-40b9-a1e0-663da05bc9b7/azspeech.png)
-
-**적용**
-
-Korean Making은 사용자가 읽은 한국어 문장 녹음 파일을 Azure AI Speech Service를 통해 발음평가 결과를 제공합니다.
-
-### 3. ETRI 문장 패러프레이즈 인식 API
-
-> 두 개의 문장이 동등한 의미를 가지는지 여부를 판별하는 기술로서, HTTP 기반의 REST API 인터페이스로 JSON 포맷 기반의 입력을 지원하는 Open API입니다.
-> 
-
-**적용**
-
-Korean Making은 작문 평가 서비스에서 사용자가 입력한 한국어 문장과 정답 문장 간의 패러프레이징 결과를 제공합니다.
-
-### 개발환경
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d6911ec5-888c-412e-8308-fa7088b37868/435c17e5-3295-4d33-bd39-b3a57561e2ee/Untitled.png)
 
 # 🍆 프로젝트 일정 및 산출물
 
@@ -208,12 +155,6 @@ Korean Making은 작문 평가 서비스에서 사용자가 입력한 한국어 
 - ERD 설계
 - Figma 목업
 
-**오희주**
-
-- **팀장**
-- **Front-end**
-- README 작성
-
 **배정식**
 
 - **Back-end**
@@ -224,14 +165,6 @@ Korean Making은 작문 평가 서비스에서 사용자가 입력한 한국어 
     - 페이지 스타일링
     - 로고 제작
 - PPT 보조
-
-**이윤정**
-
-- **Back-end**
-    - Writing API 구현
-    - 유저 기본 기능 구현
-- PPT 작성
-- 영상 제작
 
 **전세진**
 
